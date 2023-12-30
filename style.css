@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@1,500&family=Montserrat&family=Playfair+Display:wght@500&display=swap');
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid #6f6f66;
+
+
+  
+}
+
+
+nav h1 {
+color: #717171;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 50px;
+
+}
+
+
+.onglets {
+
+margin-top: 3px;
+margin-left: 300px;
+
+}
+
+
+.onglets a {
+text-decoration: none;
+color: black;
+margin-right: 10px;
+border-bottom: 1px solid black;
+padding-bottom: 5px;
+
+
+}
+
+header{
+display: flex;
+flex-direction: column;
+align-items: center;
+background: url('https://i.ibb.co/4d8CYtM/background-header.jpg');
+background-size: cover;
+color: #f1f1f1;
+padding: 40px;
+width: 100%;
+}
+
+header h1 {
+font-family: 'Courier New', Courier, monospace;
+font-size: 100px;
+}
+
+header h4 {
+margin-top: -20px;
+font-size: 20px;
+text-align: center;
+border-bottom: 1px solid white;
+
+
+}
+
+header button {
+    padding: 10px 20px;
+    background-color: #f1f1f1; 
+    color:black;
+    border: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+   
+}
+
+.main {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.main .content .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.main .content .card .left {
+flex: 10 10 50%;
+padding: 20px;
+background-color: black;
+color: #f1f1f1;
+
+}
+
+.main .content .card.right {
+flex: 10 10 50%;
+
+}
+
+.main .content .card .right img {
+    height: 300px;
+    width: 400px;
+    margin-top: 5px;
+
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 5px solid #6f6f6f;
+    background-color: black;
+    color:white;
+    padding:  30px 100px;
+    width: 100%;
+}
+
+footer h1 {
+font-family: 'Courier New', Courier, monospace;
+border-bottom: 1px solid white;
+width: 20%;
+padding-bottom: 5px;
+}
+
+footer .services {
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+footer .services .service {
+    margin-right: 30px;
+    padding: 10px;
+
+}
+
+footer .services .service p {
+    max-width: 300px;
+    
+}
+
+
+
+footer #contact {
+    color: rgb(181 , 181 , 181);
+}
+
+
+
+
+@media screen and (max-width:680px) {
+    nav .onglets {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+.main .card {
+    margin: 10px;
+}
+
+.main .content .card .right img {
+    height: 200px;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.main .content .card {
+    display: block;
+}
+footer {
+    padding: 30px;
+}
+}
